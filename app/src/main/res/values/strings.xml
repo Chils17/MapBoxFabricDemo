@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">MapBox Fabric</string>
+    <string name="com.mapbox.mapboxsdk.accessToken" translatable="false">pk.eyJ1IjoiY2o4Zm51cGxxMDMxMzJxbjZhaDNyYWh4ZiIsImEiOiJjajhmbnVxNWEwMzE1MnFuNjN3OW5uZno4In0.XcAwRx4Nv08aqHl9d2Gatw</string>
+    <string name="draw_marker_options_title">Hello Word !</string>
+    <string name="draw_marker_options_snippet">Welcome to my Marker</string>
+    <string name="fragment_in_card_below">Map fragment container in card below</string>
+
+    <!--LanguageSwitchActivity activity-->
+    <string name="language_switch_options_menu_language_english">English</string>
+    <string name="language_switch_options_menu_language_french">French</string>
+    <string name="language_switch_options_menu_language_russian">Russian</string>
+    <string name="language_switch_options_menu_language_german">German</string>
+    <string name="language_switch_options_menu_language_spanish">Spanish</string>
+
+    <!-- Raster and local style source activity-->
+    <string name="load_raster_button_text">Load custom raster style</string>
+    <string name="load_local_style_button_text">Load local style</string>
+
+    <!--Default style names-->
+    <string name="menu_map_style_streets">Streets</string>
+    <string name="menu_map_style_dark">Dark</string>
+    <string name="menu_map_style_light">Light</string>
+    <string name="menu_map_style_outdoors">Outdoors</string>
+    <string name="menu_map_style_satellite">Satellite</string>
+    <string name="menu_map_style_satellite_streets">Satellite streets</string>
+
+    <!-- Spinner for color picker example-->
+    <string-array name="layer_spinner_array">
+        <item>Water</item>
+        <item>Building</item>
+    </string-array>
+
+    <!--Zoom in and out map instruction for toast-->
+    <string name="zoom_map_in_and_out_instruction">Zoom in and out to see cluster numbers change</string>
+
+    <!--Tap on map instruction for toast-->
+    <string name="tap_on_map_instruction">Tap anywhere on the map</string>
+    <string name="tap_on_map_turf_inside_instruction">Tap inside of blue polygon area</string>
+
+    <!--LanguageSwitchActivity activity-->
+    <string name="custom_window_marker_title_spain">Spain</string>
+    <string name="custom_window_marker_title_egypt">Egypt</string>
+    <string name="custom_window_marker_title_germany">Germany</string>
+
+    <!--Marker strings for DrawCustomMarkerActivity activity-->
+    <string name="draw_custom_marker_options_title">Cape Town Harbour</string>
+    <string name="draw_custom_marker_options_snippet">One of the busiest ports in South Africa</string>
+
+    <string name="san_francisco">San Francisco</string>
+    <string name="los_angeles">Los Angeles</string>
+    <string name="seattle">Seattle</string>
+    <string name="new_orleans">New Orleans</string>
+    <string name="chicago">Chicago</string>
+    <string name="philadelphia">Philadelphia</string>
+    <string name="new_york">New York</string>
+    <string name="atlanta">Atlanta</string>
+    <string name="portland">Portland</string>
+    <string name="denver">Denver</string>
+    <string name="minneapolis">Minneapolis</string>
+    <string name="miami">Miami</string>
+    <string name="extrusions_category">3D Extrusions</string>
+    <string name="plugins_category">Plugins</string>
+
+    <!-- Extrusion light activity menu -->
+    <string name="change_anchor">Change anchor</string>
+    <string name="change_intensity">Change intensity</string>
+
+    <!--SimpleOfflineMapActivity activity-->
+    <string name="simple_offline_end_progress_success">Region downloaded successfully.</string>
+
+    <!--Basic offline map-->
+    <string name="basic_offline_deleted_toast">Yosemite offline map deleted</string>
+
+    <string name="basic_marker_activity_marker_options_title">Hisense Arena</string>
+    <string name="basic_marker_activity_marker_options_snippet">Olympic Blvd, Melbourne VIC 3001, Australia</string>
+
+    <!--Offline manager button text-->
+    <string name="download_button_text">Download</string>
+    <string name="list_button_text">List</string>
+
+    <!--Strings for OfflineManager activity-->
+    <string name="dialog_title">Name new region</string>
+    <string name="dialog_message">Downloads the map region you currently are viewing</string>
+    <string name="dialog_positive_button">Download</string>
+    <string name="dialog_negative_button">Cancel</string>
+    <string name="dialog_toast">Region name cannot be empty.</string>
+    <string name="end_progress_success">Region downloaded successfully.</string>
+    <string name="toast_no_regions_yet">You have no regions yet.</string>
+    <string name="toast_region_deleted">Region deleted</string>
+    <string name="navigate_positive_button">Navigate to</string>
+    <string name="navigate_neutral_button_title">Delete</string>
+    <string name="navigate_negative_button_title">Cancel</string>
+    <string name="navigate_title">List</string>
+    <string name="region_name">Region %1$d</string>
+    <string name="set_region_name_hint">Enter name</string>
+
+    <!--FeatureCountActivity activity-->
+    <string name="feature_count_snackbar_feature_size">%1$d features in box</string>
+
+    <!--QueryFeatureActivity activity-->
+    <string name="query_feature_marker_title">Properties:</string>
+    <string name="query_feature_marker_snippet">No feature properties found</string>
+    <string name="query_feature_no_properties_found">No feature properties found</string>
+
+    <!--Tap on feature box instruction-->
+    <string name="tap_on_feature_box_instruction">Tap on bounding box</string>
+
+    <!--Geocode widget hint text-->
+    <string name="hint_text_in_geocode_widget">Select Location</string>
+
+    <!--Marker strings for GeocodingActivity activity-->
+    <string name="geocode_activity_marker_options_title">Geocoder result</string>
+
+    <!--Marker strings for DirectionsActivity activity-->
+    <string name="directions_activity_marker_options_origin_title">Origin</string>
+    <string name="directions_activity_marker_options_origin_snippet">Vadodara</string>
+    <string name="directions_activity_marker_options_destination_title">Destination</string>
+    <string name="directions_activity_marker_options_destination_snippet">Ahmedabad</string>
+    <string name="directions_activity_toast_message">Route is %1$f meters long.</string>
+
+
+</resources>

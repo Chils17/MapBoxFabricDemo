@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.webmyne.mapboxfabric.GeocodingActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="22.310696"
+        mapbox:mapbox_cameraTargetLng="73.192635"
+        mapbox:mapbox_cameraZoom="8"
+        mapbox:mapbox_styleUrl="@string/mapbox_style_mapbox_streets" />
+
+    <custom.GeocoderAutoCompleteView
+        android:id="@+id/query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/white"
+        android:elevation="12dp"
+        android:hint="@string/hint_text_in_geocode_widget"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabMyLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_my_location"
+        mapbox:backgroundTint="@color/mapboxPink"
+        mapbox:layout_anchorGravity="top" />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.webmyne.mapboxfabric">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:replace="android:icon"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="4a64af376970ab6b664075ebb2494d79e923bd65" />
+
+        <activity android:name=".AddMarkerActivity" />
+        <activity android:name=".SupportMapFragmentActivity" />
+        <activity android:name=".MapboxMapOptionActivity" />
+        <activity android:name=".MapboxStudioStyleActivity" />
+        <activity android:name=".LanguageSwitchActivity" />
+        <activity android:name=".LocalStyleSourceActivity" />
+        <activity android:name=".DefaultStyleActivity" />
+        <activity android:name=".ShowHideLayersActivity" />
+        <activity android:name=".ColorSwitcherActivity" />
+        <activity android:name=".AdjustLayerOpacityActivity" />
+        <activity android:name=".GeojsonLayerInStackActivity" />
+        <activity android:name=".StylingMapActivity" />
+        <activity android:name=".VectorSourceActivity" />
+        <activity android:name=".AddWmsSourceActivity" />
+        <activity android:name=".GeoJsonClusteringActivity" />
+        <activity android:name=".SymbolLayerActivity" />
+        <activity android:name=".AnimateMapCameraActivity" />
+        <activity android:name=".BoundingBoxCameraActivity" />
+        <activity android:name=".CustomInfoWindowActivity" />
+        <activity android:name=".AnimatedMarkerActivity" />
+        <activity android:name=".DrawCustomMarkerActivity" />
+        <activity android:name=".DrawGeojsonLineActivity" />
+        <activity android:name=".DrawPolygonActivity" />
+        <activity android:name=".PopulationDensityExtrusionActivity" />
+        <activity android:name=".MarathonExtrusionActivity" />
+        <activity android:name=".AdjustExtrusionLightActivity" />
+        <activity android:name=".StyleCirclesCategoricallyActivity" />
+        <activity android:name=".ChoroplethZoomChangeActivity" />
+        <activity android:name=".ZoomDependentFillColorActivity" />
+        <activity android:name=".SimpleOfflineMapActivity" />
+        <activity android:name=".OfflineManagerActivity" />
+        <activity android:name=".SelectBuildingActivity" />
+        <activity android:name=".FeatureCountActivity" />
+        <activity android:name=".QueryFeatureActivity" />
+        <activity android:name=".MapNavigationActivity" />
+        <activity android:name=".GeocodingActivity" />
+        <activity android:name=".DirectionsActivity" />
+        <activity android:name=".ReciptActivity"></activity>
+    </application>
+
+</manifest>
